@@ -110,20 +110,26 @@ hr{
     padding:10px;
     display:flex;
     justify-content: space-evenly;
+    border:1px solid transparent;
 }
 .footer{
     color:var(--white-color);
     padding:10px;
+    border:1px solid transparent;
 }
 .footer h3{
     font-weight: 100;
 }
 
 @media screen and (max-width:900px){
-    .bestProducts{
+    .bestProducts,
+    .services{
         display: initial;
     }
-    .product{
-        margin:0 auto;
+    .product,
+    .service_option{
+        margin:30px auto;
+        width: 100%;
     }
+
 }
